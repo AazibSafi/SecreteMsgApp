@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/compose" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numToFeildid"
+        android:text="@string/ToLabel"
+        android:background="#0ff" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MsjTxtFeildid"
+        android:layout_alignBottom="@+id/MsjTxtFeildid"
+        android:layout_alignLeft="@+id/TextView01"
+        android:text="@string/MessageLabel"
+        android:background="#0ff" />
+
+    <EditText
+        android:id="@+id/numToFeildid"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/MsjTxtFeildid"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/numToFeildid"
+        android:layout_marginTop="25dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/SendBtnId"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/MsjTxtFeildid"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        android:background="#f00f"
+        android:textColor="#fff"
+        
+        android:text="@string/SendBtnString" />
+
+    <Button
+        android:id="@+id/SendSecretlyBtnId"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/SendBtnId"
+        android:layout_alignBottom="@+id/SendBtnId"
+        android:layout_alignLeft="@+id/MsjTxtFeildid"
+        android:layout_marginLeft="46dp"
+        android:background="#f00f"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="@string/SendSecretlyBtnString" />
+
+</RelativeLayout>

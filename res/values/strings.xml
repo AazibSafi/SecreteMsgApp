@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MySMSMessanger</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ComposeString">Compose +</string>
+    <string name="InboxString">Inbox</string>
+    <string name="MessageLabel">Message</string>
+    <string name="ToLabel">To</string>
+    <string name="SendBtnString">Send</string>
+    <string name="SendSecretlyBtnString">Send Secretly</string>
+    <string name="DiscardBtnString">Discard</string>
+    <string name="FromLabel">Hello World!</string>
+    <string name="Logo">Feel Free To Text</string>
+    <string name="image_description">splash screen </string>
+
+</resources>
